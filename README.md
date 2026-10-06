@@ -257,7 +257,7 @@ $$\mathbf v\cdot\mathbf a_{\rm Cor}=0$$
 
 2次元運動を解くためには、
 
-$$\boxed{x_0,\quady_0,\quadv_{x,0},\quadv_{y,0}}$$
+$$\boxed{x_0,\quad y_0,\quad v_{x,0},\quad v_{y,0}}$$
 
 の4つが必要である。
 
@@ -269,7 +269,7 @@ $$\mathbf X_0=(x_0,y_0,v_{x,0},v_{y,0})$$
 
 静止状態から粒子を放す場合は
 
-$$v_{x,0}=0,\qquadv_{y,0}=0$$
+$$v_{x,0}=0,\qquad v_{y,0}=0$$
 
 とする。
 
@@ -368,7 +368,7 @@ $$v^2\geq0$$
 
 でなければならないため、
 
-$$\boxed{\psi_{\rm eff}\leq-\frac{C_J}{2}$$
+$$\boxed{\psi_{\rm eff}\leq-\frac{C_J}{2}}$$
 
 を満たす領域のみ粒子が到達可能である。
 
