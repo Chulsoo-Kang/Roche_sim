@@ -192,15 +192,7 @@ $$-\nabla\psi_{\rm eff}$$
 
 運動方程式は
 
-$$
-\boxed{
-\ddot{\mathbf r}
-=
--\nabla\psi_{\rm eff}
--
-2\boldsymbol{\Omega}\times\dot{\mathbf r}
-}
-$$
+$$\boxed{\ddot{\mathbf r}=-\nabla\psi_{\rm eff}-2\boldsymbol{\Omega}\times\dot{\mathbf r}}$$
 
 である。
 
@@ -208,45 +200,19 @@ $$
 
 ## 6.1 x 成分
 
-$$
-\boxed{
-\ddot{x}
-=
--\frac{GM_1(x-x_1)}{r_1^3}
--\frac{GM_2(x-x_2)}{r_2^3}
-+\Omega^2x
-+2\Omega\dot{y}
-}
-$$
+$$\boxed{\ddot{x}=-\frac{GM_1(x-x_1)}{r_1^3}-\frac{GM_2(x-x_2)}{r_2^3}+\Omega^2x+2\Omega\dot{y}}$$
 
 ---
 
 ## 6.2 y 成分
 
-$$
-\boxed{
-\ddot{y}
-=
--\frac{GM_1y}{r_1^3}
--\frac{GM_2y}{r_2^3}
-+\Omega^2y
--2\Omega\dot{x}
-}
-$$
+$$\boxed{\ddot{y}=-\frac{GM_1y}{r_1^3}-\frac{GM_2y}{r_2^3}+\Omega^2y-2\Omega\dot{x}}$$
 
 ここで
 
-$$
-r_1
-=
-\sqrt{(x-x_1)^2+y^2}
-$$
+$$r_1=\sqrt{(x-x_1)^2+y^2}$$
 
-$$
-r_2
-=
-\sqrt{(x-x_2)^2+y^2}
-$$
+$$r_2=\sqrt{(x-x_2)^2+y^2}$$
 
 である。
 
@@ -256,58 +222,25 @@ $$
 
 コリオリ加速度は
 
-$$
-\boxed{
-\mathbf a_{\rm Cor}
-=
--2\boldsymbol{\Omega}
-\times
-\mathbf v
-}
-$$
+$$\boxed{\mathbf a_{\rm Cor}=-2\boldsymbol{\Omega}\times\mathbf v}$$
 
 である。
 
-$$
-\boldsymbol{\Omega}
-=
-(0,0,\Omega)
-$$
+$$\boldsymbol{\Omega}=(0,0,\Omega)$$
 
-$$
-\mathbf v
-=
-(v_x,v_y,0)
-$$
+$$\mathbf v=(v_x,v_y,0)$$
 
 とすると、
 
-$$
-\boxed{
-a_{{\rm Cor},x}
-=
-2\Omega v_y
-}
-$$
+$$\boxed{a_{{\rm Cor},x}=2\Omega v_y}$$
 
-$$
-\boxed{
-a_{{\rm Cor},y}
-=
--2\Omega v_x
-}
-$$
+$$\boxed{a_{{\rm Cor},y}=-2\Omega v_x}$$
 
 となる。
 
 コリオリ力は速度に垂直なので、
 
-$$
-\mathbf v\cdot
-\mathbf a_{\rm Cor}
-=
-0
-$$
+$$\mathbf v\cdot\mathbf a_{\rm Cor}=0$$
 
 であり、仕事をしない。
 
@@ -324,34 +257,19 @@ $$
 
 2次元運動を解くためには、
 
-$$
-\boxed{
-x_0,\quad
-y_0,\quad
-v_{x,0},\quad
-v_{y,0}
-}
-$$
+$$\boxed{x_0,\quady_0,\quadv_{x,0},\quadv_{y,0}}$$
 
 の4つが必要である。
 
 初期状態を
 
-$$
-\mathbf X_0
-=
-(x_0,y_0,v_{x,0},v_{y,0})
-$$
+$$\mathbf X_0=(x_0,y_0,v_{x,0},v_{y,0})$$
 
 とする。
 
 静止状態から粒子を放す場合は
 
-$$
-v_{x,0}=0,
-\qquad
-v_{y,0}=0
-$$
+$$v_{x,0}=0,\qquadv_{y,0}=0$$
 
 とする。
 
@@ -364,46 +282,18 @@ L1 点は2天体間に存在するラグランジュ点であり、
 
 \(y=0\) 上で
 
-$$
-\boxed{
-\frac{\partial\psi_{\rm eff}}{\partial x}
-=
-0
-}
-$$
+$$\boxed{\frac{\partial\psi_{\rm eff}}{\partial x}=0}$$
 
 を満たす、
 \(x_1<x<x_2\) の解を数値的に求める。
 
 具体的には
 
-$$
-\frac{\partial\psi_{\rm eff}}{\partial x}
-=
-\frac{GM_1(x-x_1)}
-{|x-x_1|^3}
-+
-\frac{GM_2(x-x_2)}
-{|x-x_2|^3}
--
-\Omega^2x
-$$
+$$\frac{\partial\psi_{\rm eff}}{\partial x}=\frac{GM_1(x-x_1)}{|x-x_1|^3}+\frac{GM_2(x-x_2)}{|x-x_2|^3}-\Omega^2x$$
 
 なので、
 
-$$
-\boxed{
-\frac{GM_1(x-x_1)}
-{|x-x_1|^3}
-+
-\frac{GM_2(x-x_2)}
-{|x-x_2|^3}
--
-\Omega^2x
-=
-0
-}
-$$
+$$\boxed{\frac{GM_1(x-x_1)}{|x-x_1|^3}+\frac{GM_2(x-x_2)}{|x-x_2|^3}-\Omega^2x=0}$$
 
 を解く。
 
@@ -415,13 +305,7 @@ $$
 
 L1 点を通る等ポテンシャル面
 
-$$
-\boxed{
-\psi_{\rm eff}(x,y)
-=
-\psi_{\rm eff}(L_1)
-}
-$$
+$$\boxed{\psi_{\rm eff}(x,y)=\psi_{\rm eff}(L_1)}$$
 
 が Roche lobe の境界に対応する。
 
@@ -435,78 +319,35 @@ $$
 
 運動方程式
 
-$$
-\ddot{\mathbf r}
-=
--\nabla\psi_{\rm eff}
--
-2\boldsymbol{\Omega}
-\times
-\dot{\mathbf r}
-$$
+$$\ddot{\mathbf r}=-\nabla\psi_{\rm eff}-2\boldsymbol{\Omega}\times\dot{\mathbf r}$$
 
 に \(\dot{\mathbf r}\) を内積すると、
 
-$$
-\frac{d}{dt}
-\left(
-\frac12v^2
-+
-\psi_{\rm eff}
-\right)
-=
-0
-$$
+$$\frac{d}{dt}\left(\frac12v^2+\psi_{\rm eff}\right)=0$$
 
 となる。
 
 したがって
 
-$$
-\frac12v^2
-+
-\psi_{\rm eff}
-=
-{\rm const.}
-$$
+$$\frac12v^2+\psi_{\rm eff}={\rm const.}$$
 
 である。
 
 Jacobi 定数を
 
-$$
-\boxed{
-C_J
-=
--2\psi_{\rm eff}
--
-v^2
-}
-$$
+$$\boxed{C_J=-2\psi_{\rm eff}-v^2}$$
 
 と定義する。
 
 2次元では
 
-$$
-\boxed{
-C_J
-=
--2\psi_{\rm eff}(x,y)
--
-(v_x^2+v_y^2)
-}
-$$
+$$\boxed{C_J=-2\psi_{\rm eff}(x,y)-(v_x^2+v_y^2)}$$
 
 である。
 
 理想的な数値積分では
 
-$$
-C_J(t)
-=
-{\rm const.}
-$$
+$$C_J(t)={\rm const.}$$
 
 であるため、Jacobi 定数の時間変化を
 数値計算精度のチェックとして用いることができる。
@@ -517,49 +358,27 @@ $$
 
 Jacobi 定数より
 
-$$
-v^2
-=
--2\psi_{\rm eff}
--
-C_J
-$$
+$$v^2=-2\psi_{\rm eff}-C_J$$
 
 である。
 
 物理的には
 
-$$
-v^2\geq0
-$$
+$$v^2\geq0$$
 
 でなければならないため、
 
-$$
-\boxed{
-\psi_{\rm eff}
-\leq
--\frac{C_J}{2}
-}
-$$
+$$\boxed{\psi_{\rm eff}\leq-\frac{C_J}{2}$$
 
 を満たす領域のみ粒子が到達可能である。
 
 境界
 
-$$
-v=0
-$$
+$$v=0$$
 
 では
 
-$$
-\boxed{
-\psi_{\rm eff}
-=
--\frac{C_J}{2}
-}
-$$
+$$\boxed{\psi_{\rm eff}=-\frac{C_J}{2}}$$
 
 となり、これを zero-velocity curve と呼ぶ。
 
@@ -569,27 +388,17 @@ $$
 
 L1 点で静止している粒子に対応する Jacobi 定数は
 
-$$
-\boxed{
-C_{J,L1}
-=
--2\psi_{\rm eff}(L_1)
-}
-$$
+$$\boxed{C_{J,L1}=-2\psi_{\rm eff}(L_1)}$$
 
 である。
 
 一般に、
 
-$$
-C_J>C_{J,L1}
-$$
+$$C_J>C_{J,L1}$$
 
 では L1 周辺の通路が閉じ、
 
-$$
-C_J<C_{J,L1}
-$$
+$$C_J<C_{J,L1}$$
 
 では L1 周辺の通路が開く。
 
@@ -603,39 +412,17 @@ Jacobi 定数から判断できる。
 
 運動方程式を1階連立常微分方程式に書き換える。
 
-$$
-\mathbf X
-=
-(x,y,v_x,v_y)
-$$
+$$\mathbf X=(x,y,v_x,v_y)$$
 
 とすると、
 
-$$
-\dot{x}=v_x
-$$
+$$\dot{x}=v_x$$
 
-$$
-\dot{y}=v_y
-$$
+$$\dot{y}=v_y$$
 
-$$
-\dot{v}_x
-=
--\frac{GM_1(x-x_1)}{r_1^3}
--\frac{GM_2(x-x_2)}{r_2^3}
-+\Omega^2x
-+2\Omega v_y
-$$
+$$\dot{v}_x=-\frac{GM_1(x-x_1)}{r_1^3}-\frac{GM_2(x-x_2)}{r_2^3}+\Omega^2x+2\Omega v_y$$
 
-$$
-\dot{v}_y
-=
--\frac{GM_1y}{r_1^3}
--\frac{GM_2y}{r_2^3}
-+\Omega^2y
--2\Omega v_x
-$$
+$$\dot{v}_y=-\frac{GM_1y}{r_1^3}-\frac{GM_2y}{r_2^3}+\Omega^2y-2\Omega v_x$$
 
 を解く。
 
