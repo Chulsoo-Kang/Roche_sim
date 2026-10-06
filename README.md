@@ -26,24 +26,18 @@
 
 2天体の質量を
 
-$$
-M_1,\qquad M_2
-$$
+$$M_1,\qquad M_2$$
 
 とし、2天体間距離を
 
-$$
-a
-$$
+$$a$$
 
 とする。
 
 2天体は円軌道を描いて公転しており、
 その角速度ベクトルを
 
-$$
-\boldsymbol{\Omega}
-$$
+$$\boldsymbol{\Omega}$$
 
 とする。
 
@@ -55,47 +49,29 @@ $$
 
 2天体の重心を
 
-$$
-(x,y)=(0,0)
-$$
+$$(x,y)=(0,0)$$
 
 とする。
 
 2天体を \(x\) 軸上に置き、
 
-$$
-\mathbf r_1=(x_1,0),
-\qquad
-\mathbf r_2=(x_2,0)
-$$
+$$\mathbf r_1=(x_1,0),\qquad\mathbf r_2=(x_2,0)$$
 
 とする。
 
 重心条件
 
-$$
-M_1x_1+M_2x_2=0
-$$
+$$M_1x_1+M_2x_2=0$$
 
 および
 
-$$
-x_2-x_1=a
-$$
+$$x_2-x_1=a$$
 
 より、
 
-$$
-\boxed{
-x_1=-\frac{M_2}{M_1+M_2}a
-}
-$$
+$$\boxed{x_1=-\frac{M_2}{M_1+M_2}a}$$
 
-$$
-\boxed{
-x_2=+\frac{M_1}{M_1+M_2}a
-}
-$$
+$$\boxed{x_2=+\frac{M_1}{M_1+M_2}a}$$
 
 となる。
 
@@ -105,27 +81,13 @@ $$
 
 2天体は円軌道を描くものとし、Kepler 則より
 
-$$
-\boxed{
-\Omega^2
-=
-\frac{G(M_1+M_2)}{a^3}
-}
-$$
+$$\boxed{\Omega^2=\frac{G(M_1+M_2)}{a^3}}$$
 
 とする。
 
 したがって
 
-$$
-\boxed{
-\Omega
-=
-\sqrt{
-\frac{G(M_1+M_2)}{a^3}
-}
-}
-$$
+$$\boxed{\Omega=\sqrt{\frac{G(M_1+M_2)}{a^3}}}$$
 
 である。
 
@@ -135,13 +97,7 @@ $$
 
 2天体と共に回転する座標系におけるテスト粒子の有効ポテンシャルを
 
-$$
-\psi_{\rm eff}(\mathbf r)
-=
-\psi_{\rm grav}
-+
-\psi_{\rm cent}
-$$
+$$\psi_{\rm eff}(\mathbf r)=\psi_{\rm grav}+\psi_{\rm cent}$$
 
 とする。
 
@@ -151,47 +107,23 @@ $$
 
 テスト粒子の位置を
 
-$$
-\mathbf r=(x,y)
-$$
+$$\mathbf r=(x,y)$$
 
 とすると、
 
-$$
-\boxed{
-\psi_{\rm grav}
-=
--\frac{GM_1}{|\mathbf r-\mathbf r_1|}
--\frac{GM_2}{|\mathbf r-\mathbf r_2|}
-}
-$$
+$$\boxed{\psi_{\rm grav}=-\frac{GM_1}{|\mathbf r-\mathbf r_1|}-\frac{GM_2}{|\mathbf r-\mathbf r_2|}}$$
 
 である。
 
 2次元では
 
-$$
-r_1
-=
-\sqrt{(x-x_1)^2+y^2}
-$$
+$$r_1=\sqrt{(x-x_1)^2+y^2}$$
 
-$$
-r_2
-=
-\sqrt{(x-x_2)^2+y^2}
-$$
+$$r_2=\sqrt{(x-x_2)^2+y^2}$$
 
 なので、
 
-$$
-\psi_{\rm grav}(x,y)
-=
--\frac{GM_1}
-{\sqrt{(x-x_1)^2+y^2}}
--\frac{GM_2}
-{\sqrt{(x-x_2)^2+y^2}}.
-$$
+$$\psi_{\rm grav}(x,y)=-\frac{GM_1}{\sqrt{(x-x_1)^2+y^2}}-\frac{GM_2}{\sqrt{(x-x_2)^2+y^2}}.$$
 
 ---
 
@@ -199,35 +131,17 @@ $$
 
 回転軸を \(z\) 軸とすると、
 
-$$
-|\boldsymbol{\Omega}\times\mathbf r|^2
-=
-\Omega^2(x^2+y^2)
-$$
+$$|\boldsymbol{\Omega}\times\mathbf r|^2=\Omega^2(x^2+y^2)$$
 
 である。
 
 遠心力に対応するポテンシャルは
 
-$$
-\boxed{
-\psi_{\rm cent}
-=
--\frac12
-|\boldsymbol{\Omega}\times\mathbf r|^2
-}
-$$
+$$\boxed{\psi_{\rm cent}=-\frac12|\boldsymbol{\Omega}\times\mathbf r|^2}$$
 
 したがって
 
-$$
-\boxed{
-\psi_{\rm cent}
-=
--\frac12
-\Omega^2(x^2+y^2)
-}
-$$
+$$\boxed{\psi_{\rm cent}=-\frac12\Omega^2(x^2+y^2)}$$
 
 である。
 
@@ -237,18 +151,7 @@ $$
 
 以上より、
 
-$$
-\boxed{
-\psi_{\rm eff}(x,y)
-=
--\frac{GM_1}
-{\sqrt{(x-x_1)^2+y^2}}
--\frac{GM_2}
-{\sqrt{(x-x_2)^2+y^2}}
--\frac12
-\Omega^2(x^2+y^2)
-}
-$$
+$$\boxed{\psi_{\rm eff}(x,y)=-\frac{GM_1}{\sqrt{(x-x_1)^2+y^2}}-\frac{GM_2}{\sqrt{(x-x_2)^2+y^2}}-\frac12\Omega^2(x^2+y^2)}$$
 
 となる。
 
@@ -258,13 +161,7 @@ $$
 
 有効ポテンシャルから得られる加速度は
 
-$$
-\boxed{
-\mathbf a_{\rm eff}
-=
--\nabla\psi_{\rm eff}
-}
-$$
+$$\boxed{\mathbf a_{\rm eff}=-\nabla\psi_{\rm eff}}$$
 
 である。
 
@@ -273,25 +170,17 @@ $$
 
 等ポテンシャル面は
 
-$$
-\psi_{\rm eff}(x,y)
-=
-{\rm const.}
-$$
+$$\psi_{\rm eff}(x,y)={\rm const.}$$
 
 で定義され、その法線方向は
 
-$$
-\nabla\psi_{\rm eff}
-$$
+$$\nabla\psi_{\rm eff}$$
 
 である。
 
 したがって粒子の初期加速度は
 
-$$
--\nabla\psi_{\rm eff}
-$$
+$$-\nabla\psi_{\rm eff}$$
 
 すなわちポテンシャルが低下する方向となる。
 
